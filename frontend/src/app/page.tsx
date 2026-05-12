@@ -1,5 +1,6 @@
 import AboutSection from "@/components/home/AboutSection";
 import CommitteeSection from "@/components/home/CommitteeSection";
+import ContactSection from "@/components/home/ContactSection";
 import EventSchedule from "@/components/home/EventSchedule";
 import GalleryPreview from "@/components/home/GalleryPreview";
 import HeroSection from "@/components/home/HeroSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <EventSchedule />
       <CommitteeSection />
       <SponsorsSection />
+      <ContactSection />
     </main>
   );
 }
